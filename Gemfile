@@ -134,3 +134,4 @@ end
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'inherited_resources', github: 'josevalim/inherited_resources'
 gem 'devise'
+gem "nested_form"

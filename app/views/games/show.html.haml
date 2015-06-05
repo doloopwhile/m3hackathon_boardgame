@@ -4,6 +4,11 @@
   %b Name:
   = @game.name
 
+%p
+  %b Tags:
+  - @game.tags.each do |t|
+    = t.name
+
 = link_to 'Edit', edit_game_path(@game)
 \|
 = link_to 'Back', games_path
