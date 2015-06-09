@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :player_mst do
+  factory :play_data_detail do
     
   end
 
